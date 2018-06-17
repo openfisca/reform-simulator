@@ -34,29 +34,29 @@ def generate_graph__revenu_disponible(salaire_net, france_ppa, reform_ppa, refor
         name="RSA avec réforme",
         x=salaire_net,
         y=reform_rsa,
-        mode='lines',
-        line=dict(width=0.5,
-                  color='rgb(184, 247, 212)'),
-        fill='tozeroy'
+        # mode='lines',
+        # line=dict(width=0.5,
+        #           color='rgb(184, 247, 212)'),
+        # fill='tozeroy'
     )
 
     trace2 = go.Scatter(
         name="Prime d'activité",
         x=salaire_net,
         y=np.array(reform_rsa) + np.array(reform_ppa),
-        mode='lines',
-        line=dict(width=0.5,
-                  color='rgb(111, 231, 219)'),
-        fill='tozeroy'
+        # mode='lines',
+        # line=dict(width=0.5,
+        #           color='rgb(111, 231, 219)'),
+        # fill='tozeroy'
     )
 
     trace3 = go.Scatter(
         name="Revenu disponible",
         x=salaire_net,
         y=reform_revenu_disponible,
-        mode='lines',
-        line=dict(width=0.5,
-                  color='rgb(127, 166, 238)'),
+        # mode='lines',
+        # line=dict(width=0.5,
+        #           color='rgb(127, 166, 238)'),
         # fill='tozeroy'
     )
 
