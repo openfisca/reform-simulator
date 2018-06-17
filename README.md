@@ -3,4 +3,4 @@ UI to simply and quickly simulate the impact of tax-benefit reforms on indivudua
 
 make install
 make
-visit localhost:7777
+visit localhost:8000
