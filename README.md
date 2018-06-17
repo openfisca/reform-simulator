@@ -12,6 +12,8 @@ Reform simulator est une interface graphique simple et rapide qui permet d’év
 > The challenge was called ["Simule ta reforme"](https://forum.datafin.fr/t/simule-ton-amendement/214)
 > There is a [live demo] of the application.
 
+![Reform Simulator démo](https://media.giphy.com/media/1eumM26JDUPhNZYSmb/giphy.gif)
+
 ## Installation
 
 Ce paquet requiert [Python 2.7](https://www.python.org/downloads/) et [pip](https://pip.pypa.io/en/stable/installing/).
