@@ -1,5 +1,7 @@
 # Reform Simulator
 
+![Reform Simulator démo](https://media.giphy.com/media/1eumM26JDUPhNZYSmb/giphy.gif)
+
 ## [EN] Introduction
 Reform simulator is a UI to simply and quickly simulate the impact of tax-benefit reforms on indivuduals.
 > This proof-of-concept is the resulting team's work during the [#datafin](https://datafin.fr/) hackathon.
@@ -11,8 +13,6 @@ Reform simulator est une interface graphique simple et rapide qui permet d’év
 > This proof-of-concept is the resulting team's work during the [#datafin](https://datafin.fr/) hackathon.
 > The challenge was called ["Simule ta reforme"](https://forum.datafin.fr/t/simule-ton-amendement/214)
 > There is a [live demo] of the application.
-
-![Reform Simulator démo](https://media.giphy.com/media/1eumM26JDUPhNZYSmb/giphy.gif)
 
 ## Installation
 
