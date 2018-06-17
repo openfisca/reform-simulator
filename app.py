@@ -24,7 +24,9 @@ DEFAULT_TAUX_DEGRESSIVITE_PPA = 0.5
 DEFAULT_PPA_PENTE_INT = 100 - (DEFAULT_TAUX_DEGRESSIVITE_PPA * 100)
 DEFAULT_PPA_VALUES = ppa_reform.values_for_ppa_pente(results, ppa_pente_int=DEFAULT_PPA_PENTE_INT)
 
-app = dash.Dash()
+app = dash.Dash(__name__)
+server = app.server
+
 app.title = '#datFin #214'
 
 # To serve offline, uncomment these lines and check for css dependency:
@@ -95,4 +97,4 @@ def display_revenu_disponible(taux_degressivite_ppa_int):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=7777)
+    app.run_server(debug=True)
