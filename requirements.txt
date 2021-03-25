@@ -10,7 +10,7 @@ dash-renderer==0.13.0
 decorator==4.3.0
 dpath==1.4.0
 enum34==1.1.6
-Flask==0.12
+Flask==1.0
 Flask-Compress==1.4.0
 Flask-Cors==3.0.2
 functools32==3.2.3.post2
