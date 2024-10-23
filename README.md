@@ -1,6 +1,9 @@
 # Reform Simulator
 
-![Reform Simulator démo](https://media.giphy.com/media/1eumM26JDUPhNZYSmb/giphy.gif)
+## DEPRECATED
+
+For an up-to-date codebase of the `openfisca-reform-simulator`, please take a look at
+[LexImpact](https://git.leximpact.dev/leximpact).
 
 ## [EN] Introduction
 Reform simulator is a UI to simply and quickly simulate the impact of tax-benefit reforms on indivuduals.
